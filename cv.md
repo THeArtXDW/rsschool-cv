@@ -74,6 +74,6 @@ I am prepared to learn, work, and improve to become a successful and sought-afte
 
 ## EDUCATION
 
-Secondary School
+**_Secondary School_**
 
-Institute of Modern Information Technologies in Education (2013)
+**_Institute of Modern Information Technologies in Education (2013)_**
