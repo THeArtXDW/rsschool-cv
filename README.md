@@ -1,1 +1,1 @@
-https://theartxdw.github.io/rsschool-cv/cv
+https://theartxdw.github.io/rsschool-cv/
