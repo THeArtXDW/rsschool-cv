@@ -23,23 +23,18 @@ body {
 }
 
 .header {
-  /* border: 1px solid #ff0000; */
-}
-
-.header-container {
-  background-color: #22293d;
+  margin-bottom: 20px;
 }
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: center;
   list-style: none;
 }
 
 .nav-link {
-  padding: 0 25px;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 50px;
   font-weight: 300;
   color: #40e0d0;
@@ -54,6 +49,30 @@ body {
 
 .main {
   /* border: 1px solid #ff0000; */
+}
+
+.profile-section {
+  background-color: #22293d;
+}
+
+.profile-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 40px;
+}
+
+.profile-title {
+  margin: 20px 40px;
+  font-family: "Bai Jamjuree", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: #e3e55e;
+}
+
+.profile-qualification {
+  font-size: 40px;
+  color: #666a75;
 }
 
 .section-title {
