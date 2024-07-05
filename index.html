@@ -1,11 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/svg/curriculum-vitae.png" type="image/x-icon">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;600;700&family=Poppins:wght@300;400;600;700&display=swap">
 </head>
+
 <body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about-me">About me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#skills">Skills</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#code">Code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Project</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#languages">Languages</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      <section class="section profile-section" id="profile">
+        <div class="profile-wrapper">
+          <div class="profile-info">
+            <h1 class="profile-title">Nursultan</h1>
+            <h2 class="profile-title">Dzhanaliev</h2>
+            <h2 class="profile-qualification">JS/FE Pre-School Student</h2>
+          </div>
+
+          <div class="profile-img">
+            <img class="profile-photo" src="assets/img/photo.png" alt="Profile photo" width="400" height="500">
+          </div>
+        </div>
+      </section>
+
+      <div class="contact-about-me-wrapper">
+        <section class="section section-size" id="contact">
+          <h2 class="section-title">Contact</h2>
+          <ul class="contact-list">
+            <li class="contact-item">
+              <a class="contact-link" href="mailto:nyanko.0xd@gmail.com" target="_blank"
+                rel="noopener noreferrer">Nyanko.0XD@gmail.com</a>
+            </li>
+            <li class="contact-item">
+              <a class="contact-link" href="https://discordapp.com/users/1214430850763198537/" target="_blank"
+                rel="noopener noreferrer">THeArtXDW</a>
+            </li>
+            <li class="contact-item">
+              <a class="contact-link" href="https://t.me/Guardi_Angel" target="_blank"
+                rel="noopener noreferrer">Guardi_Angel</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section section-size" id="about-me">
+          <h2 class="section-title">About me</h2>
+          <p class="about-me-text">I am an aspiring front-end developer, eager to grow in the field of web development.
+            <br>Despite having no prior experience in IT, I am actively studying the fundamentals of HTML, CSS and
+            JavaScript.
+          </p>
+          <h3 class="section-subtitle">Goal</h3>
+          <p class="about-me-text">My aim is to become a proficient front-end developer capable of creating modern,
+            user-friendly and functional web applications. <br>I am dedicated to continuously enhancing my skills and
+            knowledge to contribute to the development of innovative and user-centric interfaces.</p>
+        </section>
+      </div>
+
+      <div class="skills-code-wrapper">
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-wrapper">
+            <div class="hard">
+              <h3 class="section-subtitle">Hard skills</h3>
+              <ul class="skills-list">
+                <li class="skills-item">Markdown</li>
+                <li class="skills-item">Git</li>
+                <li class="skills-item">GitHub</li>
+                <li class="skills-item">HTML</li>
+                <li class="skills-item">CSS</li>
+              </ul>
+            </div>
+
+            <div class="soft">
+              <h3 class="section-subtitle">Soft skills</h3>
+              <ul>
+                <li>Attention to detail</li>
+                <li>Active listening</li>
+                <li>Patience</li>
+                <li>Analytical thinking</li>
+                <li>Problem solving</li>
+                <li>Communication</li>
+                <li>Teamwork</li>
+                <li>Time management</li>
+                <li>Adaptability</li>
+                <li>Keep learning</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section" id="code">
+          <h2 class="section-title">Code</h2>
+          <pre class="code">
+            <code><span class="color1">function</span> <span class="color2">changeCase</span><span class="color3">(</span><span class="color4">str</span>, <span class="color4">index</span><span class="color3">)</span> <span class="color3">{</span>
+              <span class="color1">let</span> char <span class="color5">=</span> <span class="color6">str</span>.<span class="color2">charAt</span><span class="color7">(</span>index<span class="color7">)</span>;
+
+              <span class="color5">if</span> <span class="color7">(</span>char <span class="color5">===</span> <span class="color6">char</span>.<span class="color2">toUpperCase</span><span class="color8">()</span><span class="color7">)</span> <span class="color7">{</span>
+                  <span class="color5">return</span> <span class="color6">char</span>.<span class="color2">toLowerCase</span><span class="color8">()</span>;
+              <span class="color7">}</span> <span class="color5">else</span> <span class="color7">{</span>
+                  <span class="color5">return</span> <span class="color6">char</span>.<span class="color2">toUpperCase</span><span class="color8">()</span>;
+              <span class="color7">}</span>
+            <span class="color3">}</span></code>
+          </pre>
+        </section>
+      </div>
+
+      <div class="project-education-languages-wrapper">
+        <section class="section" id="project">
+          <h2 class="section-title">Project</h2>
+          <ul class="project-list">
+            <li class="project-item">
+              <a class="project-link section-subtitle" href="https://theartxdw.github.io/rsschool-cv" target="_blank"
+                rel="noopener noreferrer">CV</a>
+            </li>
+          </ul>
+        </section>
+
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p class="education-text">Institute of Modern Information Technologies in Education</p>
+          <h2 class="section-subtitle">Courses</h2>
+          <ul class="education-list">
+            <li class="education-item">Oigonuu - HTML/CSS &amp; JavaScript Fundamentals (November 2023 - ...)</li>
+            <li class="education-item">RS School - JavaScript/Front-end Pre-school Course <br>(In the process...)</li>
+          </ul>
+        </section>
+
+        <section class="section" id="languages">
+          <h2 class="section-title">Languages</h2>
+          <ul class="languages-list">
+            <li class="languages-item">English - A2</li>
+            <li class="languages-item">German - A1</li>
+          </ul>
+        </section>
+      </div>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-container">
+      <ul class="footer-list">
+        <li class="footer-item">
+          <a class="footer-link" href="https://github.com/THeArtXDW" target="_blank" rel="noopener noreferrer">
+            <img class="footer-link-img" src="assets/svg/github2.svg" alt="GitHub's logo" width="150" height="150">
+          </a>
+        </li>
+        <li class="footer-item">&copy; 2024</li>
+        <li class="footer-item">
+          <a class="footer-link" href="https://rs.school/courses/javascript-preschool-ru" target="_blank"
+            rel="noopener noreferrer">
+            <img class="footer-link-img" src="assets/svg/rsschool.svg" alt="RS School's logo" width="150" height="150">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
 </body>
+
 </html>
