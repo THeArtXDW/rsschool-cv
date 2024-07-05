@@ -93,16 +93,13 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  padding: 40px;
+  padding: 100px;
 }
 
 .contact-list {
   position: relative;
   font-size: 25px;
-  text-align: left;
   list-style: none;
-  text-transform: none;
-  letter-spacing: normal;
 }
 
 .contact-item {
@@ -170,6 +167,93 @@ body {
   text-align: center;
   color: #e3e55e;
   letter-spacing: 10px;
+}
+
+.skills-code-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 40px;
+}
+
+.skills-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.skills-list {
+  position: relative;
+  font-size: 25px;
+  list-style: none;
+}
+
+.skills-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.skills-item::before {
+  content: "";
+  position: absolute;
+  left: -20px;
+  width: 40px;
+  height: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.skills-item:nth-child(1)::before {
+  background-image: url("assets/svg/icons8-markdown-50.png");
+}
+
+.skills-item:nth-child(2)::before {
+  background-image: url("assets/svg/icons8-git.svg");
+}
+
+.skills-item:nth-child(3)::before {
+  background-image: url("assets/svg/github.svg");
+}
+
+.skills-item:nth-child(4)::before {
+  background-image: url("assets/svg/icons8-html5.svg");
+}
+
+.skills-item:nth-child(5)::before {
+  background-image: url("assets/svg/icons8-css3.svg");
+}
+
+.color1 {
+  color: #56b6c2;
+}
+
+.color2 {
+  color: #98c379;
+}
+
+.color3 {
+  color: #ffd700;
+}
+
+.color4 {
+  color: #d19a66;
+}
+
+.color5 {
+  color: #e06c75;
+}
+
+.color6 {
+  color: #61afef;
+}
+
+.color7 {
+  color: #da70d6;
+}
+
+.color8 {
+  color: #179fff;
 }
 
 .footer {
